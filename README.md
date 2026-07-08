@@ -149,27 +149,6 @@ A Streamlit app provides real-time inference on uploaded images, including:
 - **Deployment:** Streamlit / Streamlit Cloud
 - **Compute:** Multi-GPU training via `DataParallel`
 
-## Project Structure
-
-```
-fairvision/
-├── data/                   # Dataset loading & preprocessing scripts
-├── notebooks/              # EDA, training, and evaluation notebooks
-├── models/
-│   ├── fiveblockcnn.py     # Custom CNN architecture
-│   ├── baseline/           # model-1 checkpoints
-│   └── mitigated/          # model-2 checkpoints (best_fairface_model.pth)
-├── fairness/                # Subgroup auditing scripts
-├── app/
-│   └── streamlit_app.py    # Deployed inference app
-├── reports/
-│   └── Fair-Vision_Technical_Report.pdf
-├── requirements.txt
-└── README.md
-```
-
-> ⚠️ Adjust this structure to match your actual repo layout before publishing.
-
 ## Installation
 
 ```bash
